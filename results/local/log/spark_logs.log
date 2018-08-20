@@ -1,0 +1,1097 @@
+2018-08-20 09:50:05 INFO  SparkContext:54 - Running Spark version 2.2.0
+2018-08-20 09:50:05 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-08-20 09:50:05 INFO  SparkContext:54 - Submitted application: motels-home-recommendation test
+2018-08-20 09:50:06 INFO  SecurityManager:54 - Changing view acls to: Alexander_Shirey
+2018-08-20 09:50:06 INFO  SecurityManager:54 - Changing modify acls to: Alexander_Shirey
+2018-08-20 09:50:06 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-08-20 09:50:06 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-08-20 09:50:06 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Alexander_Shirey); groups with view permissions: Set(); users  with modify permissions: Set(Alexander_Shirey); groups with modify permissions: Set()
+2018-08-20 09:50:06 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 53162.
+2018-08-20 09:50:06 INFO  SparkEnv:54 - Registering MapOutputTracker
+2018-08-20 09:50:06 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2018-08-20 09:50:06 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-08-20 09:50:06 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2018-08-20 09:50:06 INFO  DiskBlockManager:54 - Created local directory at C:\Users\Alexander_Shirey\AppData\Local\Temp\blockmgr-089245ab-7185-4682-9a54-74e8d7a04325
+2018-08-20 09:50:06 INFO  MemoryStore:54 - MemoryStore started with capacity 1989.6 MB
+2018-08-20 09:50:06 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2018-08-20 09:50:06 INFO  log:192 - Logging initialized @2645ms
+2018-08-20 09:50:06 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-08-20 09:50:06 INFO  Server:403 - Started @2720ms
+2018-08-20 09:50:06 INFO  AbstractConnector:270 - Started ServerConnector@63103455{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-08-20 09:50:06 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c41709a{/jobs,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d9d1b69{/jobs/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@251f7d26{/jobs/job,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@41c07648{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@781e7326{/stages,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@60d84f61{/stages/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@324dcd31{/stages/stage,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1fc793c2{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@329a1243{/stages/pool,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2d35442b{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4593ff34{/storage,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@30c0ccff{/storage/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@22db8f4{/storage/rdd,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1d572e62{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@46cf05f7{/environment,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7cd1ac19{/environment/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3caa4757{/executors,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1804f60d{/executors/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@547e29a4{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@238b521e{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3e2fc448{/static,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1cfd1875{/,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2c444798{/api,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6d1310f6{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54e7391d{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-08-20 09:50:06 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://192.168.56.1:4040
+2018-08-20 09:50:06 INFO  Executor:54 - Starting executor ID driver on host localhost
+2018-08-20 09:50:06 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53180.
+2018-08-20 09:50:06 INFO  NettyBlockTransferService:54 - Server created on 192.168.56.1:53180
+2018-08-20 09:50:06 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-08-20 09:50:06 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 192.168.56.1, 53180, None)
+2018-08-20 09:50:06 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 192.168.56.1:53180 with 1989.6 MB RAM, BlockManagerId(driver, 192.168.56.1, 53180, None)
+2018-08-20 09:50:06 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 192.168.56.1, 53180, None)
+2018-08-20 09:50:06 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 192.168.56.1, 53180, None)
+2018-08-20 09:50:07 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@682c1e93{/metrics/json,null,AVAILABLE,@Spark}
+2018-08-20 09:50:07 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 313.6 KB, free 1989.3 MB)
+2018-08-20 09:50:07 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1989.3 MB)
+2018-08-20 09:50:07 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.6 MB)
+2018-08-20 09:50:07 INFO  SparkContext:54 - Created broadcast 0 from textFile at MotelsHomeRecommendation.scala:81
+2018-08-20 09:50:08 INFO  FileInputFormat:247 - Total input paths to process : 1
+2018-08-20 09:50:08 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Registering RDD 4 (map at RDDComparisons.scala:118)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Registering RDD 6 (map at RDDComparisons.scala:119)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Got job 0 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Final stage: ResultStage 2 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 0, ShuffleMapStage 1)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 0, ShuffleMapStage 1)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (MapPartitionsRDD[4] at map at RDDComparisons.scala:118), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 2.7 KB, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 1687.0 B, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 192.168.56.1:53180 (size: 1687.0 B, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[4] at map at RDDComparisons.scala:118) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 2 tasks
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 1 (MapPartitionsRDD[6] at map at RDDComparisons.scala:119), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 4.4 KB, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 2.5 KB, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 192.168.56.1:53180 (size: 2.5 KB, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[6] at map at RDDComparisons.scala:119) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 2 tasks
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 5026 bytes)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 5012 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1025 bytes result sent to driver
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1025 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, PROCESS_LOCAL, 4907 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 2)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, PROCESS_LOCAL, 4907 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 3)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 141 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 140 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/bids_sample.txt:46+47
+2018-08-20 09:50:08 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/bids_sample.txt:0+46
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ShuffleMapStage 0 (map at RDDComparisons.scala:118) finished in 0.171 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 1)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - waiting: Set(ResultStage 2)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 3). 1111 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 3) in 78 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 2). 1111 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 2) in 78 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ShuffleMapStage 1 (map at RDDComparisons.scala:119) finished in 0.203 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - waiting: Set(ResultStage 2)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ResultStage 2 (MapPartitionsRDD[10] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 4.1 KB, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 2.2 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 192.168.56.1:53180 (size: 2.2 KB, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[10] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(0))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 1 tasks
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, PROCESS_LOCAL, 4860 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 4)
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 4). 1005 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 4) in 31 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ResultStage 2 (take at RDDComparisons.scala:124) finished in 0.031 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Job 0 finished: take at RDDComparisons.scala:124, took 0.392147 s
+2018-08-20 09:50:08 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:08 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 1 is 157 bytes
+2018-08-20 09:50:08 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 0 is 157 bytes
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Got job 1 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Final stage: ResultStage 5 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 3, ShuffleMapStage 4)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ResultStage 5 (MapPartitionsRDD[10] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 4.1 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.2 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 192.168.56.1:53180 (size: 2.2 KB, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 4 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 5 (MapPartitionsRDD[10] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(1))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 5.0 with 1 tasks
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 5.0 (TID 5, localhost, executor driver, partition 1, ANY, 4860 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 5.0 (TID 5)
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 192.168.56.1:53180 in memory (size: 2.2 KB, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 192.168.56.1:53180 in memory (size: 2.5 KB, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on 192.168.56.1:53180 in memory (size: 1687.0 B, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 5.0 (TID 5). 1048 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 5.0 (TID 5) in 31 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 5.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ResultStage 5 (take at RDDComparisons.scala:124) finished in 0.031 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Job 1 finished: take at RDDComparisons.scala:124, took 0.049638 s
+2018-08-20 09:50:08 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Registering RDD 18 (map at RDDComparisons.scala:118)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Registering RDD 15 (map at MotelsHomeRecommendation.scala:100)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Registering RDD 20 (map at RDDComparisons.scala:119)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Got job 2 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Final stage: ResultStage 9 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 6, ShuffleMapStage 8)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 6, ShuffleMapStage 8)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 6 (MapPartitionsRDD[18] at map at RDDComparisons.scala:118), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 3.0 KB, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 1930.0 B, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 192.168.56.1:53180 (size: 1930.0 B, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 6 (MapPartitionsRDD[18] at map at RDDComparisons.scala:118) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 6.0 with 2 tasks
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 7 (MapPartitionsRDD[15] at map at MotelsHomeRecommendation.scala:100), which has no missing parents
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 6.0 (TID 6, localhost, executor driver, partition 0, PROCESS_LOCAL, 4842 bytes)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 1.0 in stage 6.0 (TID 7, localhost, executor driver, partition 1, PROCESS_LOCAL, 4868 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 6.0 (TID 6)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 1.0 in stage 6.0 (TID 7)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 3.3 KB, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 1854.0 B, free 1989.3 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on 192.168.56.1:53180 (size: 1854.0 B, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 6 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 7 (MapPartitionsRDD[15] at map at MotelsHomeRecommendation.scala:100) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 7.0 with 2 tasks
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 1.0 in stage 6.0 (TID 7). 1025 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 7.0 (TID 8, localhost, executor driver, partition 0, PROCESS_LOCAL, 5029 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 7.0 (TID 8)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 1.0 in stage 6.0 (TID 7) in 47 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 6.0 (TID 6). 1025 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 1.0 in stage 7.0 (TID 9, localhost, executor driver, partition 1, PROCESS_LOCAL, 5058 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 1.0 in stage 7.0 (TID 9)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 6.0 (TID 6) in 47 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 6.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ShuffleMapStage 6 (map at RDDComparisons.scala:118) finished in 0.047 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 7)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - waiting: Set(ResultStage 9, ShuffleMapStage 8)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 7.0 (TID 8). 939 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 7.0 (TID 8) in 15 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 1.0 in stage 7.0 (TID 9). 939 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 1.0 in stage 7.0 (TID 9) in 31 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 7.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ShuffleMapStage 7 (map at MotelsHomeRecommendation.scala:100) finished in 0.063 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - waiting: Set(ResultStage 9, ShuffleMapStage 8)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 8 (MapPartitionsRDD[20] at map at RDDComparisons.scala:119), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 3.9 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on 192.168.56.1:53180 (size: 2.3 KB, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 8 (MapPartitionsRDD[20] at map at RDDComparisons.scala:119) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 8.0 with 2 tasks
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 8.0 (TID 10, localhost, executor driver, partition 0, PROCESS_LOCAL, 4610 bytes)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 1.0 in stage 8.0 (TID 11, localhost, executor driver, partition 1, ANY, 4610 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 1.0 in stage 8.0 (TID 11)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 8.0 (TID 10)
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 15 ms
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 15 ms
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 8.0 (TID 10). 1111 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 8.0 (TID 10) in 15 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 1.0 in stage 8.0 (TID 11). 1197 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 1.0 in stage 8.0 (TID 11) in 31 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 8.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ShuffleMapStage 8 (map at RDDComparisons.scala:119) finished in 0.031 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - waiting: Set(ResultStage 9)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ResultStage 9 (MapPartitionsRDD[24] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 4.6 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 2.6 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on 192.168.56.1:53180 (size: 2.6 KB, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 8 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 9 (MapPartitionsRDD[24] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(0))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 9.0 with 1 tasks
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 9.0 (TID 12, localhost, executor driver, partition 0, ANY, 4860 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 9.0 (TID 12)
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 9.0 (TID 12). 1005 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 9.0 (TID 12) in 16 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 9.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ResultStage 9 (take at RDDComparisons.scala:124) finished in 0.016 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Job 2 finished: take at RDDComparisons.scala:124, took 0.257008 s
+2018-08-20 09:50:08 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:08 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 3 is 160 bytes
+2018-08-20 09:50:08 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 4 is 159 bytes
+2018-08-20 09:50:08 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 2 is 159 bytes
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Got job 3 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Final stage: ResultStage 13 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 12, ShuffleMapStage 10)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ResultStage 13 (MapPartitionsRDD[24] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 4.6 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 2.6 KB, free 1989.2 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on 192.168.56.1:53180 (size: 2.6 KB, free: 1989.6 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 9 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 13 (MapPartitionsRDD[24] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(1))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 13.0 with 1 tasks
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 13.0 (TID 13, localhost, executor driver, partition 1, ANY, 4860 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 13.0 (TID 13)
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:08 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 13.0 (TID 13). 1005 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 13.0 (TID 13) in 16 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 13.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ResultStage 13 (take at RDDComparisons.scala:124) finished in 0.016 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Job 3 finished: take at RDDComparisons.scala:124, took 0.026957 s
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 313.6 KB, free 1988.9 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1988.9 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.5 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 10 from textFile at MotelsHomeRecommendation.scala:111
+2018-08-20 09:50:08 INFO  FileInputFormat:247 - Total input paths to process : 1
+2018-08-20 09:50:08 INFO  SparkContext:54 - Starting job: collect at MotelsHomeRecommendation.scala:118
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Got job 4 (collect at MotelsHomeRecommendation.scala:118) with 2 output partitions
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Final stage: ResultStage 14 (collect at MotelsHomeRecommendation.scala:118)
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Parents of final stage: List()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting ResultStage 14 (MapPartitionsRDD[28] at map at MotelsHomeRecommendation.scala:117), which has no missing parents
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 3.6 KB, free 1988.9 MB)
+2018-08-20 09:50:08 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 2.1 KB, free 1988.9 MB)
+2018-08-20 09:50:08 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on 192.168.56.1:53180 (size: 2.1 KB, free: 1989.5 MB)
+2018-08-20 09:50:08 INFO  SparkContext:54 - Created broadcast 11 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 14 (MapPartitionsRDD[28] at map at MotelsHomeRecommendation.scala:117) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Adding task set 14.0 with 2 tasks
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 14.0 (TID 14, localhost, executor driver, partition 0, PROCESS_LOCAL, 4927 bytes)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Starting task 1.0 in stage 14.0 (TID 15, localhost, executor driver, partition 1, PROCESS_LOCAL, 4927 bytes)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 0.0 in stage 14.0 (TID 14)
+2018-08-20 09:50:08 INFO  Executor:54 - Running task 1.0 in stage 14.0 (TID 15)
+2018-08-20 09:50:08 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/exchange_rate_sample.txt:0+43
+2018-08-20 09:50:08 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/exchange_rate_sample.txt:43+43
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 0.0 in stage 14.0 (TID 14). 815 bytes result sent to driver
+2018-08-20 09:50:08 INFO  Executor:54 - Finished task 1.0 in stage 14.0 (TID 15). 779 bytes result sent to driver
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 0.0 in stage 14.0 (TID 14) in 0 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:08 INFO  TaskSetManager:54 - Finished task 1.0 in stage 14.0 (TID 15) in 0 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:08 INFO  TaskSchedulerImpl:54 - Removed TaskSet 14.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - ResultStage 14 (collect at MotelsHomeRecommendation.scala:118) finished in 0.000 s
+2018-08-20 09:50:08 INFO  DAGScheduler:54 - Job 4 finished: collect at MotelsHomeRecommendation.scala:118, took 0.018814 s
+2018-08-20 09:50:09 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 38 (map at RDDComparisons.scala:119)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 36 (map at RDDComparisons.scala:118)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Got job 5 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Final stage: ResultStage 17 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 15, ShuffleMapStage 16)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 15, ShuffleMapStage 16)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 15 (MapPartitionsRDD[38] at map at RDDComparisons.scala:119), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 4.2 KB, free 1988.9 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1988.9 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on 192.168.56.1:53180 (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 12 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 15 (MapPartitionsRDD[38] at map at RDDComparisons.scala:119) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 15.0 with 2 tasks
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 16 (MapPartitionsRDD[36] at map at RDDComparisons.scala:118), which has no missing parents
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 15.0 (TID 16, localhost, executor driver, partition 0, PROCESS_LOCAL, 5092 bytes)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 15.0 (TID 17, localhost, executor driver, partition 1, PROCESS_LOCAL, 5156 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 15.0 (TID 17)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 15.0 (TID 16)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_13 stored as values in memory (estimated size 2.8 KB, free 1988.9 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_13_piece0 stored as bytes in memory (estimated size 1764.0 B, free 1988.9 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_13_piece0 in memory on 192.168.56.1:53180 (size: 1764.0 B, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 13 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 16 (MapPartitionsRDD[36] at map at RDDComparisons.scala:118) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 16.0 with 2 tasks
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 15.0 (TID 16). 939 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 16.0 (TID 18, localhost, executor driver, partition 0, PROCESS_LOCAL, 5017 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 16.0 (TID 18)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 15.0 (TID 16) in 94 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 15.0 (TID 17). 1025 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 16.0 (TID 19, localhost, executor driver, partition 1, PROCESS_LOCAL, 5017 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 16.0 (TID 19)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 15.0 (TID 17) in 110 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 15.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 15 (map at RDDComparisons.scala:119) finished in 0.110 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 16)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ResultStage 17)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 16.0 (TID 18). 939 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 16.0 (TID 18) in 16 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 16.0 (TID 19). 939 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 16.0 (TID 19) in 15 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 16.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 16 (map at RDDComparisons.scala:118) finished in 0.109 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ResultStage 17)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ResultStage 17 (MapPartitionsRDD[42] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_14 stored as values in memory (estimated size 4.2 KB, free 1988.9 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_14_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1988.9 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_14_piece0 in memory on 192.168.56.1:53180 (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 14 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_8_piece0 on 192.168.56.1:53180 in memory (size: 2.6 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 17 (MapPartitionsRDD[42] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(0))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 17.0 with 1 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 17.0 (TID 20, localhost, executor driver, partition 0, ANY, 4860 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 17.0 (TID 20)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 17.0 (TID 20). 1005 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 17.0 (TID 20) in 16 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 17.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ResultStage 17 (take at RDDComparisons.scala:124) finished in 0.016 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Job 5 finished: take at RDDComparisons.scala:124, took 0.153334 s
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 1
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece0 on 192.168.56.1:53180 in memory (size: 2.2 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_12_piece0 on 192.168.56.1:53180 in memory (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_7_piece0 on 192.168.56.1:53180 in memory (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_0_piece0 on 192.168.56.1:53180 in memory (size: 27.5 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 3
+2018-08-20 09:50:09 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_9_piece0 on 192.168.56.1:53180 in memory (size: 2.6 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 5 is 159 bytes
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 6 is 157 bytes
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece0 on 192.168.56.1:53180 in memory (size: 1854.0 B, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Got job 6 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Final stage: ResultStage 20 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 19, ShuffleMapStage 18)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ResultStage 20 (MapPartitionsRDD[42] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 4
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on 192.168.56.1:53180 in memory (size: 1930.0 B, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_15 stored as values in memory (estimated size 4.2 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_11_piece0 on 192.168.56.1:53180 in memory (size: 2.1 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_15_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 0
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_15_piece0 in memory on 192.168.56.1:53180 (size: 2.3 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 2
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 15 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 20 (MapPartitionsRDD[42] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 20.0 with 1 tasks
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_10_piece0 on 192.168.56.1:53180 in memory (size: 27.5 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 20.0 (TID 21, localhost, executor driver, partition 1, PROCESS_LOCAL, 4860 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 20.0 (TID 21)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 20.0 (TID 21). 919 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 20.0 (TID 21) in 0 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 20.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ResultStage 20 (take at RDDComparisons.scala:124) finished in 0.000 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Job 6 finished: take at RDDComparisons.scala:124, took 0.014636 s
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_16 stored as values in memory (estimated size 313.6 KB, free 1989.3 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_16_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_16_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 16 from textFile at MotelsHomeRecommendation.scala:152
+2018-08-20 09:50:09 INFO  FileInputFormat:247 - Total input paths to process : 1
+2018-08-20 09:50:09 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 48 (map at RDDComparisons.scala:118)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 50 (map at RDDComparisons.scala:119)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Got job 7 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Final stage: ResultStage 23 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 21, ShuffleMapStage 22)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 21, ShuffleMapStage 22)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 21 (MapPartitionsRDD[48] at map at RDDComparisons.scala:118), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_17 stored as values in memory (estimated size 2.6 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_17_piece0 stored as bytes in memory (estimated size 1661.0 B, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_17_piece0 in memory on 192.168.56.1:53180 (size: 1661.0 B, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 17 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 21 (MapPartitionsRDD[48] at map at RDDComparisons.scala:118) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 21.0 with 2 tasks
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 22 (MapPartitionsRDD[50] at map at RDDComparisons.scala:119), which has no missing parents
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 21.0 (TID 22, localhost, executor driver, partition 0, PROCESS_LOCAL, 4892 bytes)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 21.0 (TID 23, localhost, executor driver, partition 1, PROCESS_LOCAL, 4932 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 21.0 (TID 22)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 21.0 (TID 23)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_18 stored as values in memory (estimated size 4.6 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_18_piece0 stored as bytes in memory (estimated size 2.6 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_18_piece0 in memory on 192.168.56.1:53180 (size: 2.6 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 18 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 22 (MapPartitionsRDD[50] at map at RDDComparisons.scala:119) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 22.0 with 2 tasks
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 21.0 (TID 22). 939 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 22.0 (TID 24, localhost, executor driver, partition 0, PROCESS_LOCAL, 4909 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 22.0 (TID 24)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 21.0 (TID 22) in 15 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/motels_sample.txt:0+822
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 21.0 (TID 23). 939 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 22.0 (TID 25, localhost, executor driver, partition 1, PROCESS_LOCAL, 4909 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 22.0 (TID 25)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 21.0 (TID 23) in 31 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 21.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 21 (map at RDDComparisons.scala:118) finished in 0.031 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 22)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ResultStage 23)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/motels_sample.txt:822+822
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 22.0 (TID 24). 1025 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 22.0 (TID 24) in 32 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 22.0 (TID 25). 1025 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 22.0 (TID 25) in 16 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 22.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 22 (map at RDDComparisons.scala:119) finished in 0.047 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ResultStage 23)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ResultStage 23 (MapPartitionsRDD[54] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_19 stored as values in memory (estimated size 4.1 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_19_piece0 stored as bytes in memory (estimated size 2.2 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_19_piece0 in memory on 192.168.56.1:53180 (size: 2.2 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 19 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 23 (MapPartitionsRDD[54] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(0))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 23.0 with 1 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 23.0 (TID 26, localhost, executor driver, partition 0, ANY, 4860 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 23.0 (TID 26)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 23.0 (TID 26). 919 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 23.0 (TID 26) in 0 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 23.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ResultStage 23 (take at RDDComparisons.scala:124) finished in 0.000 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Job 7 finished: take at RDDComparisons.scala:124, took 0.077308 s
+2018-08-20 09:50:09 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 8 is 159 bytes
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 7 is 160 bytes
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Got job 8 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Final stage: ResultStage 26 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 24, ShuffleMapStage 25)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ResultStage 26 (MapPartitionsRDD[54] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_20 stored as values in memory (estimated size 4.1 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_20_piece0 stored as bytes in memory (estimated size 2.2 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_20_piece0 in memory on 192.168.56.1:53180 (size: 2.2 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 20 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 26 (MapPartitionsRDD[54] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 26.0 with 1 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 26.0 (TID 27, localhost, executor driver, partition 1, ANY, 4860 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 26.0 (TID 27)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 26.0 (TID 27). 919 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 26.0 (TID 27) in 0 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 26.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ResultStage 26 (take at RDDComparisons.scala:124) finished in 0.000 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Job 8 finished: take at RDDComparisons.scala:124, took 0.025351 s
+2018-08-20 09:50:09 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 58 (map at MotelsHomeRecommendation.scala:161)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 56 (parallelize at MotelsHomeRecommendationTest.scala:139)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 63 (groupBy at MotelsHomeRecommendation.scala:166)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 68 (map at RDDComparisons.scala:119)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 66 (map at RDDComparisons.scala:118)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Got job 9 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Final stage: ResultStage 32 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 30, ShuffleMapStage 31)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 30, ShuffleMapStage 31)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 27 (MapPartitionsRDD[58] at map at MotelsHomeRecommendation.scala:161), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_21 stored as values in memory (estimated size 2.6 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_21_piece0 stored as bytes in memory (estimated size 1704.0 B, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_21_piece0 in memory on 192.168.56.1:53180 (size: 1704.0 B, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 21 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 27 (MapPartitionsRDD[58] at map at MotelsHomeRecommendation.scala:161) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 27.0 with 2 tasks
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 28 (ParallelCollectionRDD[56] at parallelize at MotelsHomeRecommendationTest.scala:139), which has no missing parents
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 27.0 (TID 28, localhost, executor driver, partition 0, PROCESS_LOCAL, 5075 bytes)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 27.0 (TID 29, localhost, executor driver, partition 1, PROCESS_LOCAL, 5075 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 27.0 (TID 28)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 27.0 (TID 29)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_22 stored as values in memory (estimated size 2.0 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_22_piece0 stored as bytes in memory (estimated size 1312.0 B, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_22_piece0 in memory on 192.168.56.1:53180 (size: 1312.0 B, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 22 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 28 (ParallelCollectionRDD[56] at parallelize at MotelsHomeRecommendationTest.scala:139) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 28.0 with 2 tasks
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 31 (MapPartitionsRDD[66] at map at RDDComparisons.scala:118), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_23 stored as values in memory (estimated size 2.8 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_23_piece0 stored as bytes in memory (estimated size 1781.0 B, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_23_piece0 in memory on 192.168.56.1:53180 (size: 1781.0 B, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 23 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 31 (MapPartitionsRDD[66] at map at RDDComparisons.scala:118) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 31.0 with 2 tasks
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 27.0 (TID 28). 810 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 28.0 (TID 30, localhost, executor driver, partition 0, PROCESS_LOCAL, 4890 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 28.0 (TID 30)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 27.0 (TID 28) in 63 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 27.0 (TID 29). 853 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 28.0 (TID 31, localhost, executor driver, partition 1, PROCESS_LOCAL, 4929 bytes)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 27.0 (TID 29) in 78 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 27.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 28.0 (TID 31)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 27 (map at MotelsHomeRecommendation.scala:161) finished in 0.078 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 31, ShuffleMapStage 28)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 30, ResultStage 32, ShuffleMapStage 29)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 28.0 (TID 30). 810 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 31.0 (TID 32, localhost, executor driver, partition 0, PROCESS_LOCAL, 5063 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 31.0 (TID 32)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 28.0 (TID 30) in 31 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 28.0 (TID 31). 810 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 31.0 (TID 33, localhost, executor driver, partition 1, PROCESS_LOCAL, 5072 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 31.0 (TID 33)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 28.0 (TID 31) in 31 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 28.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 28 (parallelize at MotelsHomeRecommendationTest.scala:139) finished in 0.109 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 31)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 30, ResultStage 32, ShuffleMapStage 29)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 29 (MapPartitionsRDD[63] at groupBy at MotelsHomeRecommendation.scala:166), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_24 stored as values in memory (estimated size 4.6 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_24_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 31.0 (TID 32). 896 bytes result sent to driver
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_24_piece0 in memory on 192.168.56.1:53180 (size: 2.3 KB, free: 1989.6 MB)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 31.0 (TID 32) in 15 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 24 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 29 (MapPartitionsRDD[63] at groupBy at MotelsHomeRecommendation.scala:166) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 29.0 with 2 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 29.0 (TID 34, localhost, executor driver, partition 0, PROCESS_LOCAL, 4673 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 29.0 (TID 34)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 0 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 31.0 (TID 33). 939 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 29.0 (TID 35, localhost, executor driver, partition 1, PROCESS_LOCAL, 4673 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 29.0 (TID 35)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 31.0 (TID 33) in 16 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 31.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 31 (map at RDDComparisons.scala:118) finished in 0.094 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 29)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 30, ResultStage 32)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 29.0 (TID 34). 1068 bytes result sent to driver
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 29.0 (TID 34) in 16 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 29.0 (TID 35). 1197 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 29.0 (TID 35) in 31 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 29.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 29 (groupBy at MotelsHomeRecommendation.scala:166) finished in 0.047 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 30, ResultStage 32)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 30 (MapPartitionsRDD[68] at map at RDDComparisons.scala:119), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_25 stored as values in memory (estimated size 5.8 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_25_piece0 stored as bytes in memory (estimated size 2.7 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_25_piece0 in memory on 192.168.56.1:53180 (size: 2.7 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 25 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 30 (MapPartitionsRDD[68] at map at RDDComparisons.scala:119) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 30.0 with 2 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 30.0 (TID 36, localhost, executor driver, partition 0, ANY, 4610 bytes)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 30.0 (TID 37, localhost, executor driver, partition 1, ANY, 4610 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 30.0 (TID 36)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 30.0 (TID 37)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 30.0 (TID 36). 1154 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 30.0 (TID 36) in 16 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 30.0 (TID 37). 1197 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 30.0 (TID 37) in 16 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 30.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 30 (map at RDDComparisons.scala:119) finished in 0.016 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ResultStage 32)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ResultStage 32 (MapPartitionsRDD[72] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_26 stored as values in memory (estimated size 4.3 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_26_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_26_piece0 in memory on 192.168.56.1:53180 (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 26 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 32 (MapPartitionsRDD[72] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(0))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 32.0 with 1 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 32.0 (TID 38, localhost, executor driver, partition 0, ANY, 4860 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 32.0 (TID 38)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 32.0 (TID 38). 919 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 32.0 (TID 38) in 0 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 32.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ResultStage 32 (take at RDDComparisons.scala:124) finished in 0.000 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Job 9 finished: take at RDDComparisons.scala:124, took 0.217371 s
+2018-08-20 09:50:09 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 9 is 157 bytes
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 10 is 159 bytes
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 13 is 159 bytes
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 11 is 160 bytes
+2018-08-20 09:50:09 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 12 is 160 bytes
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Got job 10 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Final stage: ResultStage 38 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 37, ShuffleMapStage 36)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ResultStage 38 (MapPartitionsRDD[72] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_27 stored as values in memory (estimated size 4.3 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_27_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1989.2 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_27_piece0 in memory on 192.168.56.1:53180 (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 27 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 38 (MapPartitionsRDD[72] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 38.0 with 1 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 38.0 (TID 39, localhost, executor driver, partition 1, ANY, 4860 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 38.0 (TID 39)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 38.0 (TID 39). 919 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 38.0 (TID 39) in 0 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 38.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ResultStage 38 (take at RDDComparisons.scala:124) finished in 0.000 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Job 10 finished: take at RDDComparisons.scala:124, took 0.012777 s
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_28 stored as values in memory (estimated size 313.6 KB, free 1988.9 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_28_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1988.9 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_28_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 28 from textFile at MotelsHomeRecommendation.scala:81
+2018-08-20 09:50:09 INFO  FileInputFormat:247 - Total input paths to process : 1
+2018-08-20 09:50:09 INFO  SparkContext:54 - Starting job: saveAsTextFile at MotelsHomeRecommendation.scala:42
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Registering RDD 78 (map at MotelsHomeRecommendation.scala:100)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Got job 11 (saveAsTextFile at MotelsHomeRecommendation.scala:42) with 2 output partitions
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Final stage: ResultStage 40 (saveAsTextFile at MotelsHomeRecommendation.scala:42)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 39)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 39)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 39 (MapPartitionsRDD[78] at map at MotelsHomeRecommendation.scala:100), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_29 stored as values in memory (estimated size 4.9 KB, free 1988.8 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_29_piece0 stored as bytes in memory (estimated size 2.6 KB, free 1988.8 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_29_piece0 in memory on 192.168.56.1:53180 (size: 2.6 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 29 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 39 (MapPartitionsRDD[78] at map at MotelsHomeRecommendation.scala:100) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 39.0 with 2 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 39.0 (TID 40, localhost, executor driver, partition 0, PROCESS_LOCAL, 4918 bytes)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 39.0 (TID 41, localhost, executor driver, partition 1, PROCESS_LOCAL, 4918 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 39.0 (TID 40)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 39.0 (TID 41)
+2018-08-20 09:50:09 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/input/bids.txt:202694+202694
+2018-08-20 09:50:09 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/input/bids.txt:0+202694
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 1.0 in stage 39.0 (TID 41). 1025 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 1.0 in stage 39.0 (TID 41) in 63 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:09 INFO  Executor:54 - Finished task 0.0 in stage 39.0 (TID 40). 1025 bytes result sent to driver
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Finished task 0.0 in stage 39.0 (TID 40) in 63 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Removed TaskSet 39.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - ShuffleMapStage 39 (map at MotelsHomeRecommendation.scala:100) finished in 0.063 s
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - waiting: Set(ResultStage 40)
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting ResultStage 40 (MapPartitionsRDD[81] at saveAsTextFile at MotelsHomeRecommendation.scala:42), which has no missing parents
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_30 stored as values in memory (estimated size 84.4 KB, free 1988.8 MB)
+2018-08-20 09:50:09 INFO  MemoryStore:54 - Block broadcast_30_piece0 stored as bytes in memory (estimated size 30.3 KB, free 1988.7 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Added broadcast_30_piece0 in memory on 192.168.56.1:53180 (size: 30.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  SparkContext:54 - Created broadcast 30 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:09 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 40 (MapPartitionsRDD[81] at saveAsTextFile at MotelsHomeRecommendation.scala:42) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:09 INFO  TaskSchedulerImpl:54 - Adding task set 40.0 with 2 tasks
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 0.0 in stage 40.0 (TID 42, localhost, executor driver, partition 0, ANY, 4621 bytes)
+2018-08-20 09:50:09 INFO  TaskSetManager:54 - Starting task 1.0 in stage 40.0 (TID 43, localhost, executor driver, partition 1, ANY, 4621 bytes)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 0.0 in stage 40.0 (TID 42)
+2018-08-20 09:50:09 INFO  Executor:54 - Running task 1.0 in stage 40.0 (TID 43)
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_17_piece0 on 192.168.56.1:53180 in memory (size: 1661.0 B, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_19_piece0 on 192.168.56.1:53180 in memory (size: 2.2 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 5
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 10
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_21_piece0 on 192.168.56.1:53180 in memory (size: 1704.0 B, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 13
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 12
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_18_piece0 on 192.168.56.1:53180 in memory (size: 2.6 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_22_piece0 on 192.168.56.1:53180 in memory (size: 1312.0 B, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_13_piece0 on 192.168.56.1:53180 in memory (size: 1764.0 B, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 9
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 7
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 8
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_25_piece0 on 192.168.56.1:53180 in memory (size: 2.7 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_23_piece0 on 192.168.56.1:53180 in memory (size: 1781.0 B, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_20_piece0 on 192.168.56.1:53180 in memory (size: 2.2 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_29_piece0 on 192.168.56.1:53180 in memory (size: 2.6 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_15_piece0 on 192.168.56.1:53180 in memory (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_16_piece0 on 192.168.56.1:53180 in memory (size: 27.5 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_14_piece0 on 192.168.56.1:53180 in memory (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 6
+2018-08-20 09:50:09 INFO  ContextCleaner:54 - Cleaned shuffle 11
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_24_piece0 on 192.168.56.1:53180 in memory (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_27_piece0 on 192.168.56.1:53180 in memory (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:09 INFO  BlockManagerInfo:54 - Removed broadcast_26_piece0 on 192.168.56.1:53180 in memory (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  FileOutputCommitter:439 - Saved output of task 'attempt_20180820095009_0040_m_000001_43' to file:/C:/Users/ALEXAN~1/AppData/Local/Temp/output8165229956974688914/erroneous/_temporary/0/task_20180820095009_0040_m_000001
+2018-08-20 09:50:10 INFO  SparkHadoopMapRedUtil:54 - attempt_20180820095009_0040_m_000001_43: Committed
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 1.0 in stage 40.0 (TID 43). 1224 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 1.0 in stage 40.0 (TID 43) in 203 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:10 INFO  FileOutputCommitter:439 - Saved output of task 'attempt_20180820095009_0040_m_000000_42' to file:/C:/Users/ALEXAN~1/AppData/Local/Temp/output8165229956974688914/erroneous/_temporary/0/task_20180820095009_0040_m_000000
+2018-08-20 09:50:10 INFO  SparkHadoopMapRedUtil:54 - attempt_20180820095009_0040_m_000000_42: Committed
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 0.0 in stage 40.0 (TID 42). 1224 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 0.0 in stage 40.0 (TID 42) in 234 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 40.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - ResultStage 40 (saveAsTextFile at MotelsHomeRecommendation.scala:42) finished in 0.234 s
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Job 11 finished: saveAsTextFile at MotelsHomeRecommendation.scala:42, took 0.334483 s
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_31 stored as values in memory (estimated size 313.6 KB, free 1988.8 MB)
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_31_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1988.8 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Added broadcast_31_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  SparkContext:54 - Created broadcast 31 from textFile at MotelsHomeRecommendation.scala:111
+2018-08-20 09:50:10 INFO  FileInputFormat:247 - Total input paths to process : 1
+2018-08-20 09:50:10 INFO  SparkContext:54 - Starting job: collect at MotelsHomeRecommendation.scala:118
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Got job 12 (collect at MotelsHomeRecommendation.scala:118) with 2 output partitions
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Final stage: ResultStage 41 (collect at MotelsHomeRecommendation.scala:118)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Parents of final stage: List()
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting ResultStage 41 (MapPartitionsRDD[85] at map at MotelsHomeRecommendation.scala:117), which has no missing parents
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_32 stored as values in memory (estimated size 3.6 KB, free 1988.8 MB)
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_32_piece0 stored as bytes in memory (estimated size 2.1 KB, free 1988.8 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Added broadcast_32_piece0 in memory on 192.168.56.1:53180 (size: 2.1 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  SparkContext:54 - Created broadcast 32 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 41 (MapPartitionsRDD[85] at map at MotelsHomeRecommendation.scala:117) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Adding task set 41.0 with 2 tasks
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 0.0 in stage 41.0 (TID 44, localhost, executor driver, partition 0, PROCESS_LOCAL, 4938 bytes)
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 1.0 in stage 41.0 (TID 45, localhost, executor driver, partition 1, PROCESS_LOCAL, 4938 bytes)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 0.0 in stage 41.0 (TID 44)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 1.0 in stage 41.0 (TID 45)
+2018-08-20 09:50:10 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/input/exchange_rate.txt:127020+127020
+2018-08-20 09:50:10 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/input/exchange_rate.txt:0+127020
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 0.0 in stage 41.0 (TID 44). 159315 bytes result sent to driver
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 1.0 in stage 41.0 (TID 45). 159286 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 0.0 in stage 41.0 (TID 44) in 47 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 1.0 in stage 41.0 (TID 45) in 47 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 41.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - ResultStage 41 (collect at MotelsHomeRecommendation.scala:118) finished in 0.047 s
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Job 12 finished: collect at MotelsHomeRecommendation.scala:118, took 0.057122 s
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_33 stored as values in memory (estimated size 313.6 KB, free 1988.5 MB)
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_33_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1988.5 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Added broadcast_33_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  SparkContext:54 - Created broadcast 33 from textFile at MotelsHomeRecommendation.scala:152
+2018-08-20 09:50:10 INFO  FileInputFormat:247 - Total input paths to process : 1
+2018-08-20 09:50:10 INFO  SparkContext:54 - Starting job: saveAsTextFile at MotelsHomeRecommendation.scala:74
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Registering RDD 95 (map at MotelsHomeRecommendation.scala:161)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Registering RDD 94 (map at MotelsHomeRecommendation.scala:154)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Registering RDD 100 (groupBy at MotelsHomeRecommendation.scala:166)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Got job 13 (saveAsTextFile at MotelsHomeRecommendation.scala:74) with 2 output partitions
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Final stage: ResultStage 45 (saveAsTextFile at MotelsHomeRecommendation.scala:74)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 44)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 44)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 42 (MapPartitionsRDD[95] at map at MotelsHomeRecommendation.scala:161), which has no missing parents
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_34 stored as values in memory (estimated size 262.2 KB, free 1988.2 MB)
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_34_piece0 stored as bytes in memory (estimated size 96.2 KB, free 1988.1 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Added broadcast_34_piece0 in memory on 192.168.56.1:53180 (size: 96.2 KB, free: 1989.4 MB)
+2018-08-20 09:50:10 INFO  SparkContext:54 - Created broadcast 34 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 42 (MapPartitionsRDD[95] at map at MotelsHomeRecommendation.scala:161) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Adding task set 42.0 with 2 tasks
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 43 (MapPartitionsRDD[94] at map at MotelsHomeRecommendation.scala:154), which has no missing parents
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 0.0 in stage 42.0 (TID 46, localhost, executor driver, partition 0, PROCESS_LOCAL, 4918 bytes)
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 1.0 in stage 42.0 (TID 47, localhost, executor driver, partition 1, PROCESS_LOCAL, 4918 bytes)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 0.0 in stage 42.0 (TID 46)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 1.0 in stage 42.0 (TID 47)
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_35 stored as values in memory (estimated size 4.3 KB, free 1988.1 MB)
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_35_piece0 stored as bytes in memory (estimated size 2.4 KB, free 1988.1 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Added broadcast_35_piece0 in memory on 192.168.56.1:53180 (size: 2.4 KB, free: 1989.4 MB)
+2018-08-20 09:50:10 INFO  SparkContext:54 - Created broadcast 35 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 43 (MapPartitionsRDD[94] at map at MotelsHomeRecommendation.scala:154) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Adding task set 43.0 with 2 tasks
+2018-08-20 09:50:10 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/input/bids.txt:0+202694
+2018-08-20 09:50:10 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/input/bids.txt:202694+202694
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 0.0 in stage 42.0 (TID 46). 982 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 0.0 in stage 43.0 (TID 48, localhost, executor driver, partition 0, PROCESS_LOCAL, 4920 bytes)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 0.0 in stage 43.0 (TID 48)
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 0.0 in stage 42.0 (TID 46) in 125 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:10 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/input/motels.txt:0+2763
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 1.0 in stage 42.0 (TID 47). 982 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 1.0 in stage 43.0 (TID 49, localhost, executor driver, partition 1, PROCESS_LOCAL, 4920 bytes)
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 1.0 in stage 42.0 (TID 47) in 140 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 42.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - ShuffleMapStage 42 (map at MotelsHomeRecommendation.scala:161) finished in 0.140 s
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 43)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - waiting: Set(ResultStage 45, ShuffleMapStage 44)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 1.0 in stage 43.0 (TID 49)
+2018-08-20 09:50:10 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/input/motels.txt:2763+2763
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 0.0 in stage 43.0 (TID 48). 896 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 0.0 in stage 43.0 (TID 48) in 47 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 1.0 in stage 43.0 (TID 49). 896 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 1.0 in stage 43.0 (TID 49) in 32 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 43.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - ShuffleMapStage 43 (map at MotelsHomeRecommendation.scala:154) finished in 0.172 s
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - waiting: Set(ResultStage 45, ShuffleMapStage 44)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 44 (MapPartitionsRDD[100] at groupBy at MotelsHomeRecommendation.scala:166), which has no missing parents
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_36 stored as values in memory (estimated size 4.6 KB, free 1988.1 MB)
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_36_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1988.1 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Added broadcast_36_piece0 in memory on 192.168.56.1:53180 (size: 2.3 KB, free: 1989.4 MB)
+2018-08-20 09:50:10 INFO  SparkContext:54 - Created broadcast 36 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 44 (MapPartitionsRDD[100] at groupBy at MotelsHomeRecommendation.scala:166) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Adding task set 44.0 with 2 tasks
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 0.0 in stage 44.0 (TID 50, localhost, executor driver, partition 0, PROCESS_LOCAL, 4673 bytes)
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 1.0 in stage 44.0 (TID 51, localhost, executor driver, partition 1, PROCESS_LOCAL, 4673 bytes)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 1.0 in stage 44.0 (TID 51)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 0.0 in stage 44.0 (TID 50)
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 0.0 in stage 44.0 (TID 50). 1283 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 0.0 in stage 44.0 (TID 50) in 110 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 1.0 in stage 44.0 (TID 51). 1283 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 1.0 in stage 44.0 (TID 51) in 125 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 44.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - ShuffleMapStage 44 (groupBy at MotelsHomeRecommendation.scala:166) finished in 0.125 s
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - waiting: Set(ResultStage 45)
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting ResultStage 45 (MapPartitionsRDD[103] at saveAsTextFile at MotelsHomeRecommendation.scala:74), which has no missing parents
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_37 stored as values in memory (estimated size 86.7 KB, free 1988.0 MB)
+2018-08-20 09:50:10 INFO  MemoryStore:54 - Block broadcast_37_piece0 stored as bytes in memory (estimated size 31.2 KB, free 1988.0 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Added broadcast_37_piece0 in memory on 192.168.56.1:53180 (size: 31.2 KB, free: 1989.4 MB)
+2018-08-20 09:50:10 INFO  SparkContext:54 - Created broadcast 37 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 45 (MapPartitionsRDD[103] at saveAsTextFile at MotelsHomeRecommendation.scala:74) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Adding task set 45.0 with 2 tasks
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 0.0 in stage 45.0 (TID 52, localhost, executor driver, partition 0, ANY, 4621 bytes)
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Starting task 1.0 in stage 45.0 (TID 53, localhost, executor driver, partition 1, ANY, 4621 bytes)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 1.0 in stage 45.0 (TID 53)
+2018-08-20 09:50:10 INFO  Executor:54 - Running task 0.0 in stage 45.0 (TID 52)
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Removed broadcast_32_piece0 on 192.168.56.1:53180 in memory (size: 2.1 KB, free: 1989.4 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Removed broadcast_34_piece0 on 192.168.56.1:53180 in memory (size: 96.2 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Removed broadcast_31_piece0 on 192.168.56.1:53180 in memory (size: 27.5 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Removed broadcast_36_piece0 on 192.168.56.1:53180 in memory (size: 2.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Removed broadcast_30_piece0 on 192.168.56.1:53180 in memory (size: 30.3 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  BlockManagerInfo:54 - Removed broadcast_35_piece0 on 192.168.56.1:53180 in memory (size: 2.4 KB, free: 1989.5 MB)
+2018-08-20 09:50:10 INFO  FileOutputCommitter:439 - Saved output of task 'attempt_20180820095010_0045_m_000000_52' to file:/C:/Users/ALEXAN~1/AppData/Local/Temp/output8165229956974688914/aggregated/_temporary/0/task_20180820095010_0045_m_000000
+2018-08-20 09:50:10 INFO  SparkHadoopMapRedUtil:54 - attempt_20180820095010_0045_m_000000_52: Committed
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 0.0 in stage 45.0 (TID 52). 1224 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 0.0 in stage 45.0 (TID 52) in 219 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:10 INFO  FileOutputCommitter:439 - Saved output of task 'attempt_20180820095010_0045_m_000001_53' to file:/C:/Users/ALEXAN~1/AppData/Local/Temp/output8165229956974688914/aggregated/_temporary/0/task_20180820095010_0045_m_000001
+2018-08-20 09:50:10 INFO  SparkHadoopMapRedUtil:54 - attempt_20180820095010_0045_m_000001_53: Committed
+2018-08-20 09:50:10 INFO  Executor:54 - Finished task 1.0 in stage 45.0 (TID 53). 1138 bytes result sent to driver
+2018-08-20 09:50:10 INFO  TaskSetManager:54 - Finished task 1.0 in stage 45.0 (TID 53) in 234 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 45.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - ResultStage 45 (saveAsTextFile at MotelsHomeRecommendation.scala:74) finished in 0.234 s
+2018-08-20 09:50:10 INFO  DAGScheduler:54 - Job 13 finished: saveAsTextFile at MotelsHomeRecommendation.scala:74, took 0.588434 s
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_38 stored as values in memory (estimated size 313.6 KB, free 1988.5 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_38_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1988.5 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_38_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.5 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 38 from textFile at MotelsHomeRecommendationTest.scala:181
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_39 stored as values in memory (estimated size 313.6 KB, free 1988.2 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_39_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1988.2 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_39_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.5 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 39 from textFile at MotelsHomeRecommendationTest.scala:182
+2018-08-20 09:50:11 INFO  FileInputFormat:247 - Total input paths to process : 1
+2018-08-20 09:50:11 INFO  FileInputFormat:247 - Total input paths to process : 2
+2018-08-20 09:50:11 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Registering RDD 110 (map at RDDComparisons.scala:119)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Registering RDD 108 (map at RDDComparisons.scala:118)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Got job 14 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Final stage: ResultStage 48 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 46, ShuffleMapStage 47)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 46, ShuffleMapStage 47)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 46 (MapPartitionsRDD[110] at map at RDDComparisons.scala:119), which has no missing parents
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_40 stored as values in memory (estimated size 4.6 KB, free 1988.1 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_40_piece0 stored as bytes in memory (estimated size 2.7 KB, free 1988.1 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_40_piece0 in memory on 192.168.56.1:53180 (size: 2.7 KB, free: 1989.5 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 40 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 46 (MapPartitionsRDD[110] at map at RDDComparisons.scala:119) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Adding task set 46.0 with 2 tasks
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 47 (MapPartitionsRDD[108] at map at RDDComparisons.scala:118), which has no missing parents
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 0.0 in stage 46.0 (TID 54, localhost, executor driver, partition 0, PROCESS_LOCAL, 4897 bytes)
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 1.0 in stage 46.0 (TID 55, localhost, executor driver, partition 1, PROCESS_LOCAL, 4897 bytes)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 0.0 in stage 46.0 (TID 54)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 1.0 in stage 46.0 (TID 55)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_41 stored as values in memory (estimated size 4.6 KB, free 1988.1 MB)
+2018-08-20 09:50:11 INFO  HadoopRDD:54 - Input split: file:/C:/Users/ALEXAN~1/AppData/Local/Temp/output8165229956974688914/erroneous/part-00000:0+2322
+2018-08-20 09:50:11 INFO  HadoopRDD:54 - Input split: file:/C:/Users/ALEXAN~1/AppData/Local/Temp/output8165229956974688914/erroneous/part-00001:0+2616
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_41_piece0 stored as bytes in memory (estimated size 2.7 KB, free 1988.1 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_41_piece0 in memory on 192.168.56.1:53180 (size: 2.7 KB, free: 1989.5 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 41 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ShuffleMapStage 47 (MapPartitionsRDD[108] at map at RDDComparisons.scala:118) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Adding task set 47.0 with 2 tasks
+2018-08-20 09:50:11 INFO  Executor:54 - Finished task 0.0 in stage 46.0 (TID 54). 1025 bytes result sent to driver
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 0.0 in stage 47.0 (TID 56, localhost, executor driver, partition 0, PROCESS_LOCAL, 4933 bytes)
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Finished task 0.0 in stage 46.0 (TID 54) in 31 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 0.0 in stage 47.0 (TID 56)
+2018-08-20 09:50:11 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/expected_output/error_records:0+2469
+2018-08-20 09:50:11 INFO  Executor:54 - Finished task 1.0 in stage 46.0 (TID 55). 1025 bytes result sent to driver
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 1.0 in stage 47.0 (TID 57, localhost, executor driver, partition 1, PROCESS_LOCAL, 4933 bytes)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 1.0 in stage 47.0 (TID 57)
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Finished task 1.0 in stage 46.0 (TID 55) in 31 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Removed TaskSet 46.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - ShuffleMapStage 46 (map at RDDComparisons.scala:119) finished in 0.031 s
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - running: Set(ShuffleMapStage 47)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - waiting: Set(ResultStage 48)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:11 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/expected_output/error_records:2469+2469
+2018-08-20 09:50:11 INFO  Executor:54 - Finished task 0.0 in stage 47.0 (TID 56). 1025 bytes result sent to driver
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Finished task 0.0 in stage 47.0 (TID 56) in 16 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:11 INFO  Executor:54 - Finished task 1.0 in stage 47.0 (TID 57). 1025 bytes result sent to driver
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Finished task 1.0 in stage 47.0 (TID 57) in 16 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Removed TaskSet 47.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - ShuffleMapStage 47 (map at RDDComparisons.scala:118) finished in 0.047 s
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - running: Set()
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - waiting: Set(ResultStage 48)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - failed: Set()
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting ResultStage 48 (MapPartitionsRDD[114] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_42 stored as values in memory (estimated size 4.6 KB, free 1988.1 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_42_piece0 stored as bytes in memory (estimated size 2.6 KB, free 1988.1 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_42_piece0 in memory on 192.168.56.1:53180 (size: 2.6 KB, free: 1989.5 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 42 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 48 (MapPartitionsRDD[114] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(0))
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Adding task set 48.0 with 1 tasks
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 0.0 in stage 48.0 (TID 58, localhost, executor driver, partition 0, ANY, 4860 bytes)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 0.0 in stage 48.0 (TID 58)
+2018-08-20 09:50:11 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:11 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:11 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:11 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:11 INFO  Executor:54 - Finished task 0.0 in stage 48.0 (TID 58). 1005 bytes result sent to driver
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Finished task 0.0 in stage 48.0 (TID 58) in 15 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Removed TaskSet 48.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - ResultStage 48 (take at RDDComparisons.scala:124) finished in 0.015 s
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Job 14 finished: take at RDDComparisons.scala:124, took 0.069063 s
+2018-08-20 09:50:11 INFO  SparkContext:54 - Starting job: take at RDDComparisons.scala:124
+2018-08-20 09:50:11 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 18 is 159 bytes
+2018-08-20 09:50:11 INFO  MapOutputTrackerMaster:54 - Size of output statuses for shuffle 19 is 160 bytes
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Got job 15 (take at RDDComparisons.scala:124) with 1 output partitions
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Final stage: ResultStage 51 (take at RDDComparisons.scala:124)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 49, ShuffleMapStage 50)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting ResultStage 51 (MapPartitionsRDD[114] at filter at RDDComparisons.scala:121), which has no missing parents
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_43 stored as values in memory (estimated size 4.6 KB, free 1988.1 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_43_piece0 stored as bytes in memory (estimated size 2.6 KB, free 1988.1 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_43_piece0 in memory on 192.168.56.1:53180 (size: 2.6 KB, free: 1989.5 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 43 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 51 (MapPartitionsRDD[114] at filter at RDDComparisons.scala:121) (first 15 tasks are for partitions Vector(1))
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Adding task set 51.0 with 1 tasks
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 0.0 in stage 51.0 (TID 59, localhost, executor driver, partition 1, ANY, 4860 bytes)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 0.0 in stage 51.0 (TID 59)
+2018-08-20 09:50:11 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:11 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:11 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks out of 2 blocks
+2018-08-20 09:50:11 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-08-20 09:50:11 INFO  Executor:54 - Finished task 0.0 in stage 51.0 (TID 59). 1005 bytes result sent to driver
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Finished task 0.0 in stage 51.0 (TID 59) in 15 ms on localhost (executor driver) (1/1)
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Removed TaskSet 51.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - ResultStage 51 (take at RDDComparisons.scala:124) finished in 0.015 s
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Job 15 finished: take at RDDComparisons.scala:124, took 0.018119 s
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_44 stored as values in memory (estimated size 313.6 KB, free 1987.8 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_44_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1987.8 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_44_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.4 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 44 from textFile at MotelsHomeRecommendationTest.scala:187
+2018-08-20 09:50:11 INFO  FileInputFormat:247 - Total input paths to process : 1
+2018-08-20 09:50:11 INFO  SparkContext:54 - Starting job: collect at MotelsHomeRecommendationTest.scala:187
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Got job 16 (collect at MotelsHomeRecommendationTest.scala:187) with 2 output partitions
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Final stage: ResultStage 52 (collect at MotelsHomeRecommendationTest.scala:187)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Parents of final stage: List()
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting ResultStage 52 (MapPartitionsRDD[117] at map at MotelsHomeRecommendationTest.scala:206), which has no missing parents
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_45 stored as values in memory (estimated size 3.4 KB, free 1987.8 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_45_piece0 stored as bytes in memory (estimated size 2.0 KB, free 1987.8 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_45_piece0 in memory on 192.168.56.1:53180 (size: 2.0 KB, free: 1989.4 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 45 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 52 (MapPartitionsRDD[117] at map at MotelsHomeRecommendationTest.scala:206) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Adding task set 52.0 with 2 tasks
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 0.0 in stage 52.0 (TID 60, localhost, executor driver, partition 0, PROCESS_LOCAL, 4941 bytes)
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 1.0 in stage 52.0 (TID 61, localhost, executor driver, partition 1, PROCESS_LOCAL, 4941 bytes)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 0.0 in stage 52.0 (TID 60)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 1.0 in stage 52.0 (TID 61)
+2018-08-20 09:50:11 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/expected_output/aggregated:0+122356
+2018-08-20 09:50:11 INFO  HadoopRDD:54 - Input split: file:/C:/Users/Alexander_Shirey/IdeaProjects/spark-core-homework/src/test/resources/integration/expected_output/aggregated:122356+122357
+2018-08-20 09:50:11 INFO  Executor:54 - Finished task 1.0 in stage 52.0 (TID 61). 157549 bytes result sent to driver
+2018-08-20 09:50:11 INFO  Executor:54 - Finished task 0.0 in stage 52.0 (TID 60). 157549 bytes result sent to driver
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Finished task 1.0 in stage 52.0 (TID 61) in 16 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Finished task 0.0 in stage 52.0 (TID 60) in 16 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Removed TaskSet 52.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - ResultStage 52 (collect at MotelsHomeRecommendationTest.scala:187) finished in 0.016 s
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Job 16 finished: collect at MotelsHomeRecommendationTest.scala:187, took 0.016692 s
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_46 stored as values in memory (estimated size 313.6 KB, free 1987.5 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_46_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1987.5 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_46_piece0 in memory on 192.168.56.1:53180 (size: 27.5 KB, free: 1989.4 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 46 from textFile at MotelsHomeRecommendationTest.scala:188
+2018-08-20 09:50:11 INFO  FileInputFormat:247 - Total input paths to process : 2
+2018-08-20 09:50:11 INFO  SparkContext:54 - Starting job: collect at MotelsHomeRecommendationTest.scala:188
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Got job 17 (collect at MotelsHomeRecommendationTest.scala:188) with 2 output partitions
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Final stage: ResultStage 53 (collect at MotelsHomeRecommendationTest.scala:188)
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Parents of final stage: List()
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Missing parents: List()
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting ResultStage 53 (MapPartitionsRDD[120] at map at MotelsHomeRecommendationTest.scala:206), which has no missing parents
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_47 stored as values in memory (estimated size 3.5 KB, free 1987.4 MB)
+2018-08-20 09:50:11 INFO  MemoryStore:54 - Block broadcast_47_piece0 stored as bytes in memory (estimated size 2.1 KB, free 1987.4 MB)
+2018-08-20 09:50:11 INFO  BlockManagerInfo:54 - Added broadcast_47_piece0 in memory on 192.168.56.1:53180 (size: 2.1 KB, free: 1989.4 MB)
+2018-08-20 09:50:11 INFO  SparkContext:54 - Created broadcast 47 from broadcast at DAGScheduler.scala:1006
+2018-08-20 09:50:11 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 53 (MapPartitionsRDD[120] at map at MotelsHomeRecommendationTest.scala:206) (first 15 tasks are for partitions Vector(0, 1))
+2018-08-20 09:50:11 INFO  TaskSchedulerImpl:54 - Adding task set 53.0 with 2 tasks
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 0.0 in stage 53.0 (TID 62, localhost, executor driver, partition 0, PROCESS_LOCAL, 4909 bytes)
+2018-08-20 09:50:11 INFO  TaskSetManager:54 - Starting task 1.0 in stage 53.0 (TID 63, localhost, executor driver, partition 1, PROCESS_LOCAL, 4909 bytes)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 0.0 in stage 53.0 (TID 62)
+2018-08-20 09:50:11 INFO  Executor:54 - Running task 1.0 in stage 53.0 (TID 63)
+2018-08-20 09:50:12 INFO  HadoopRDD:54 - Input split: file:/C:/Users/ALEXAN~1/AppData/Local/Temp/output8165229956974688914/aggregated/part-00001:0+121108
+2018-08-20 09:50:12 INFO  HadoopRDD:54 - Input split: file:/C:/Users/ALEXAN~1/AppData/Local/Temp/output8165229956974688914/aggregated/part-00000:0+123606
+2018-08-20 09:50:12 INFO  Executor:54 - Finished task 0.0 in stage 53.0 (TID 62). 159246 bytes result sent to driver
+2018-08-20 09:50:12 INFO  Executor:54 - Finished task 1.0 in stage 53.0 (TID 63). 155849 bytes result sent to driver
+2018-08-20 09:50:12 INFO  TaskSetManager:54 - Finished task 0.0 in stage 53.0 (TID 62) in 16 ms on localhost (executor driver) (1/2)
+2018-08-20 09:50:12 INFO  TaskSetManager:54 - Finished task 1.0 in stage 53.0 (TID 63) in 16 ms on localhost (executor driver) (2/2)
+2018-08-20 09:50:12 INFO  TaskSchedulerImpl:54 - Removed TaskSet 53.0, whose tasks have all completed, from pool 
+2018-08-20 09:50:12 INFO  DAGScheduler:54 - ResultStage 53 (collect at MotelsHomeRecommendationTest.scala:188) finished in 0.016 s
+2018-08-20 09:50:12 INFO  DAGScheduler:54 - Job 17 finished: collect at MotelsHomeRecommendationTest.scala:188, took 0.014189 s
+2018-08-20 09:50:12 INFO  AbstractConnector:310 - Stopped Spark@63103455{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-08-20 09:50:12 INFO  SparkUI:54 - Stopped Spark web UI at http://192.168.56.1:4040
+2018-08-20 09:50:12 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-08-20 09:50:12 INFO  MemoryStore:54 - MemoryStore cleared
+2018-08-20 09:50:12 INFO  BlockManager:54 - BlockManager stopped
+2018-08-20 09:50:12 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-08-20 09:50:12 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-08-20 09:50:12 INFO  SparkContext:54 - Successfully stopped SparkContext
+2018-08-20 09:50:12 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-08-20 09:50:12 INFO  ShutdownHookManager:54 - Deleting directory C:\Users\Alexander_Shirey\AppData\Local\Temp\spark-919250e5-82a5-41f6-820e-9059765c2b37

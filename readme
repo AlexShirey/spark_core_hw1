@@ -1,0 +1,29 @@
+
+
+Spark core task, implementation
+
+app structure:
+	folders:
+		input - folder contains inputs files (can be used to run script): bids.txt, motels.txt, exchange_rate.txt
+		results - folder that contains results of execution (on local computer, on hdp sandbox 2.6.5)
+	files:
+		readme - current file
+		run.sh - script to run the app (it wil call spark-sabmit --master yarn)
+		spark-core-src.zip - archive with scala implementation and tests, pom.xml to build jar
+				
+		
+to run the app:
+	
+	> bash run.sh <bids file> <motels file> <exchanger_rates file> [source_file_zip]
+	
+	usage: [source_file_zip] - the path to the .zip archive with sources to compile and build new jar"
+	usage: if [source_file_zip] is not set, then the jar file from $APP_DIR/jar will be used"
+	
+the first time you run the script, you have to specify [source_file_zip] to allow the app to build jar file (maven clean package),
+this .jar file will be put to $APP_DIR/jar directoy after build, and next time you don't have to specify [source_file_zip] as
+script will use existing .jar, but if you wish you can still specify [source_file_zip] - then the jar will be replaced,
+or manualy put your own .jar file to $APP_DIR/jar directory.
+
+		
+
+	

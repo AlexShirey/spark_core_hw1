@@ -1,0 +1,522 @@
+# this file contains the console output after running run.sh script:
+bash run.sh input/bids.txt input/motels.txt input/exchange_rate.txt spark-core-src.zip 2>&1 | tee app_console_output.txt
+
+starting build new jar from spark-core-src.zip
+Archive:  spark-core-src.zip
+   creating: /home/maria_dev/spark_core_hw1/tmp/.idea/
+   creating: /home/maria_dev/spark_core_hw1/tmp/.idea/codeStyles/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/codeStyles/Project.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/compiler.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/dbnavigator.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/encodings.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/hydra.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/misc.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/scala_compiler.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/uiDesigner.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/.idea/workspace.xml  
+   creating: /home/maria_dev/spark_core_hw1/tmp/logs/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/logs/spark_logs.log  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/profiles/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/main/profiles/hadoop-jar  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/resources/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/main/resources/log4j.properties  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/core/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/core/homework/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/core/homework/Constants.scala  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/core/homework/domain/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/core/homework/domain/BidError.scala  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/core/homework/domain/BidItem.scala  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/core/homework/domain/EnrichedItem.scala  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/main/scala/com/epam/hubd/spark/scala/core/homework/MotelsHomeRecommendation.scala  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/bids_sample.txt  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/exchange_rate_sample.txt  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/integration/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/integration/expected_output/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/integration/expected_output/aggregated  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/integration/expected_output/error_records  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/integration/input/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/integration/input/bids.txt  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/integration/input/exchange_rate.txt  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/integration/input/motels.txt  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/resources/motels_sample.txt  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/hubd/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/hubd/spark/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/hubd/spark/scala/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/hubd/spark/scala/core/
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/hubd/spark/scala/core/homework/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/hubd/spark/scala/core/homework/MotelsHomeRecommendationTest.scala  
+   creating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/hubd/spark/scala/core/util/
+  inflating: /home/maria_dev/spark_core_hw1/tmp/src/test/scala/com/epam/hubd/spark/scala/core/util/RddComparator.scala  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/pom.xml  
+  inflating: /home/maria_dev/spark_core_hw1/tmp/spark-core-homework.iml  
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.epam.hubd:spark-core-homework >------------------
+[INFO] Building spark-core-homework 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spark-core-homework ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spark-core-homework ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spark-core-homework ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.2:compile (default) @ spark-core-homework ---
+[WARNING]  Expected all dependencies to require Scala version: 2.11.11
+[WARNING]  com.epam.hubd:spark-core-homework:1.0.0 requires scala version: 2.11.11
+[WARNING]  com.twitter:chill_2.11:0.8.0 requires scala version: 2.11.7
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /home/maria_dev/spark_core_hw1/tmp/src/main/scala:-1: info: compiling
+[INFO] Compiling 5 source files to /home/maria_dev/spark_core_hw1/tmp/target/classes at 1533778033591
+[INFO] prepare-compile in 0 s
+[INFO] compile in 5 s
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spark-core-homework ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spark-core-homework ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.2:testCompile (default) @ spark-core-homework ---
+[WARNING]  Expected all dependencies to require Scala version: 2.11.11
+[WARNING]  com.epam.hubd:spark-core-homework:1.0.0 requires scala version: 2.11.11
+[WARNING]  com.twitter:chill_2.11:0.8.0 requires scala version: 2.11.7
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /home/maria_dev/spark_core_hw1/tmp/src/test/scala:-1: info: compiling
+[INFO] Compiling 2 source files to /home/maria_dev/spark_core_hw1/tmp/target/test-classes at 1533778038691
+[INFO] prepare-compile in 0 s
+[INFO] compile in 4 s
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7:test (default-test) @ spark-core-homework ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- scalatest-maven-plugin:1.0:test (test) @ spark-core-homework ---
+Discovery starting.
+Discovery completed in 145 milliseconds.
+Run starting. Expected test count is: 7
+MotelsHomeRecommendationTest:
+- should read raw bids
+- should collect erroneous records
+- should read rates and return map
+- should convert USD to EUR, convert date, get rid of records where there is no price and return RDD[BidItem]
+- should read motels and return only its id and name
+- should create EnrichedItems (BidItem + hotel name)
+- should filter errors and create correct aggregates
+Run completed in 5 seconds, 859 milliseconds.
+Total number of tests run: 7
+Suites: completed 2, aborted 0
+Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ spark-core-homework ---
+[INFO] Building jar: /home/maria_dev/spark_core_hw1/tmp/target/spark-core-homework-1.0.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.869 s
+[INFO] Finished at: 2018-08-09T01:27:30Z
+[INFO] ------------------------------------------------------------------------
+file /home/maria_dev/spark_core_hw1/tmp/target/spark-core-homework-1.0.0.jar was built successfully, moving it to /home/maria_dev/spark_core_hw1/jar to execute on spark
+files in hdfs /tmp/spark_core
+Found 3 items
+-rw-r--r--   1 maria_dev hdfs     405388 2018-08-09 01:27 /tmp/spark_core/bids.txt
+-rw-r--r--   1 maria_dev hdfs       5526 2018-08-09 01:27 /tmp/spark_core/motels.txt
+-rw-r--r--   1 maria_dev hdfs     254040 2018-08-09 01:27 /tmp/spark_core/rates.txt
+
+all ok, starting spark using /home/maria_dev/spark_core_hw1/jar/spark-core-homework-1.0.0.jar
+SPARK_MAJOR_VERSION is set to 2, using Spark2
+Warning: Master yarn-client is deprecated since 2.0. Please use master "yarn" with specified deploy mode instead.
+18/08/09 01:27:46 INFO SparkContext: Running Spark version 2.3.0.2.6.5.0-292
+18/08/09 01:27:46 INFO SparkContext: Submitted application: motels-home-recommendation
+18/08/09 01:27:46 INFO SecurityManager: Changing view acls to: maria_dev
+18/08/09 01:27:46 INFO SecurityManager: Changing modify acls to: maria_dev
+18/08/09 01:27:46 INFO SecurityManager: Changing view acls groups to: 
+18/08/09 01:27:46 INFO SecurityManager: Changing modify acls groups to: 
+18/08/09 01:27:46 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(maria_dev); groups with view permissions: Set(); users  with modify permissions: Set(maria_dev); groups with modify permissions: Set()
+18/08/09 01:27:46 INFO Utils: Successfully started service 'sparkDriver' on port 37087.
+18/08/09 01:27:46 INFO SparkEnv: Registering MapOutputTracker
+18/08/09 01:27:46 INFO SparkEnv: Registering BlockManagerMaster
+18/08/09 01:27:46 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+18/08/09 01:27:46 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+18/08/09 01:27:46 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-f7daf9a6-8e22-4304-8a79-c9b08c24a78e
+18/08/09 01:27:46 INFO MemoryStore: MemoryStore started with capacity 912.3 MB
+18/08/09 01:27:46 INFO SparkEnv: Registering OutputCommitCoordinator
+18/08/09 01:27:46 INFO log: Logging initialized @2550ms
+18/08/09 01:27:46 INFO Server: jetty-9.3.z-SNAPSHOT
+18/08/09 01:27:46 INFO Server: Started @2669ms
+18/08/09 01:27:46 INFO AbstractConnector: Started ServerConnector@18e8473e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/08/09 01:27:46 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@26f143ed{/jobs,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4102b1b1{/jobs/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@61a5b4ae{/jobs/job,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5b69fd74{/jobs/job/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@f325091{/stages,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@437e951d{/stages/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@77b325b3{/stages/stage,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@49ef32e0{/stages/stage/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@271f18d3{/stages/pool,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6bd51ed8{/stages/pool/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@61e3a1fd{/storage,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@51abf713{/storage/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@eadb475{/storage/rdd,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4d4d48a6{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@315df4bb{/environment,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3fc08eec{/environment/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5cad8b7d{/executors,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7b02e036{/executors/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@25243bc1{/executors/threadDump,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1e287667{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2e6ee0bc{/static,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@214894fc{/,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10567255{/api,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5aa360ea{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6548bb7d{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/08/09 01:27:47 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://sandbox-hdp.hortonworks.com:4040
+18/08/09 01:27:47 INFO SparkContext: Added JAR file:/home/maria_dev/spark_core_hw1/jar/spark-core-homework-1.0.0.jar at spark://sandbox-hdp.hortonworks.com:37087/jars/spark-core-homework-1.0.0.jar with timestamp 1533778067084
+18/08/09 01:27:48 INFO RMProxy: Connecting to ResourceManager at sandbox-hdp.hortonworks.com/172.18.0.2:8032
+18/08/09 01:27:48 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+18/08/09 01:27:48 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (2250 MB per container)
+18/08/09 01:27:48 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+18/08/09 01:27:48 INFO Client: Setting up container launch context for our AM
+18/08/09 01:27:48 INFO Client: Setting up the launch environment for our AM container
+18/08/09 01:27:48 INFO Client: Preparing resources for our AM container
+18/08/09 01:27:49 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://sandbox-hdp.hortonworks.com:8020/hdp/apps/2.6.5.0-292/spark2/spark2-hdp-yarn-archive.tar.gz
+18/08/09 01:27:49 INFO Client: Source and destination file systems are the same. Not copying hdfs://sandbox-hdp.hortonworks.com:8020/hdp/apps/2.6.5.0-292/spark2/spark2-hdp-yarn-archive.tar.gz
+18/08/09 01:27:49 INFO Client: Uploading resource file:/tmp/spark-5918ec17-77ec-4142-b6cb-6142a8210808/__spark_conf__3149896058267975021.zip -> hdfs://sandbox-hdp.hortonworks.com:8020/user/maria_dev/.sparkStaging/application_1533749050632_0012/__spark_conf__.zip
+18/08/09 01:27:50 INFO SecurityManager: Changing view acls to: maria_dev
+18/08/09 01:27:50 INFO SecurityManager: Changing modify acls to: maria_dev
+18/08/09 01:27:50 INFO SecurityManager: Changing view acls groups to: 
+18/08/09 01:27:50 INFO SecurityManager: Changing modify acls groups to: 
+18/08/09 01:27:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(maria_dev); groups with view permissions: Set(); users  with modify permissions: Set(maria_dev); groups with modify permissions: Set()
+18/08/09 01:27:50 INFO Client: Submitting application application_1533749050632_0012 to ResourceManager
+18/08/09 01:27:50 INFO YarnClientImpl: Submitted application application_1533749050632_0012
+18/08/09 01:27:50 INFO SchedulerExtensionServices: Starting Yarn extension services with app application_1533749050632_0012 and attemptId None
+18/08/09 01:27:51 INFO Client: Application report for application_1533749050632_0012 (state: ACCEPTED)
+18/08/09 01:27:51 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1533778070353
+	 final status: UNDEFINED
+	 tracking URL: http://sandbox-hdp.hortonworks.com:8088/proxy/application_1533749050632_0012/
+	 user: maria_dev
+18/08/09 01:27:52 INFO Client: Application report for application_1533749050632_0012 (state: ACCEPTED)
+18/08/09 01:27:53 INFO Client: Application report for application_1533749050632_0012 (state: ACCEPTED)
+18/08/09 01:27:54 INFO Client: Application report for application_1533749050632_0012 (state: ACCEPTED)
+18/08/09 01:27:54 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> sandbox-hdp.hortonworks.com, PROXY_URI_BASES -> http://sandbox-hdp.hortonworks.com:8088/proxy/application_1533749050632_0012), /proxy/application_1533749050632_0012
+18/08/09 01:27:54 INFO JettyUtils: Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+18/08/09 01:27:55 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+18/08/09 01:27:55 INFO Client: Application report for application_1533749050632_0012 (state: RUNNING)
+18/08/09 01:27:55 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.18.0.2
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1533778070353
+	 final status: UNDEFINED
+	 tracking URL: http://sandbox-hdp.hortonworks.com:8088/proxy/application_1533749050632_0012/
+	 user: maria_dev
+18/08/09 01:27:55 INFO YarnClientSchedulerBackend: Application application_1533749050632_0012 has started running.
+18/08/09 01:27:55 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41979.
+18/08/09 01:27:55 INFO NettyBlockTransferService: Server created on sandbox-hdp.hortonworks.com:41979
+18/08/09 01:27:55 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+18/08/09 01:27:55 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, sandbox-hdp.hortonworks.com, 41979, None)
+18/08/09 01:27:55 INFO BlockManagerMasterEndpoint: Registering block manager sandbox-hdp.hortonworks.com:41979 with 912.3 MB RAM, BlockManagerId(driver, sandbox-hdp.hortonworks.com, 41979, None)
+18/08/09 01:27:55 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, sandbox-hdp.hortonworks.com, 41979, None)
+18/08/09 01:27:55 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, sandbox-hdp.hortonworks.com, 41979, None)
+18/08/09 01:27:55 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@79252c83{/metrics/json,null,AVAILABLE,@Spark}
+18/08/09 01:27:55 INFO EventLoggingListener: Logging events to hdfs:/spark2-history/application_1533749050632_0012
+18/08/09 01:27:59 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.18.0.2:58796) with ID 1
+18/08/09 01:27:59 INFO BlockManagerMasterEndpoint: Registering block manager sandbox-hdp.hortonworks.com:34917 with 366.3 MB RAM, BlockManagerId(1, sandbox-hdp.hortonworks.com, 34917, None)
+18/08/09 01:28:17 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000(ms)
+18/08/09 01:28:17 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 360.1 KB, free 911.9 MB)
+18/08/09 01:28:17 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.2 KB, free 911.9 MB)
+18/08/09 01:28:17 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 32.2 KB, free: 912.3 MB)
+18/08/09 01:28:17 INFO SparkContext: Created broadcast 0 from textFile at MotelsHomeRecommendation.scala:80
+18/08/09 01:28:17 INFO FileInputFormat: Total input paths to process : 1
+18/08/09 01:28:17 INFO deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+18/08/09 01:28:17 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+18/08/09 01:28:17 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+18/08/09 01:28:17 INFO SparkContext: Starting job: runJob at SparkHadoopWriter.scala:78
+18/08/09 01:28:17 INFO DAGScheduler: Registering RDD 5 (map at MotelsHomeRecommendation.scala:99)
+18/08/09 01:28:17 INFO DAGScheduler: Got job 0 (runJob at SparkHadoopWriter.scala:78) with 2 output partitions
+18/08/09 01:28:17 INFO DAGScheduler: Final stage: ResultStage 1 (runJob at SparkHadoopWriter.scala:78)
+18/08/09 01:28:17 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+18/08/09 01:28:17 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 0)
+18/08/09 01:28:17 INFO DAGScheduler: Submitting ShuffleMapStage 0 (MapPartitionsRDD[5] at map at MotelsHomeRecommendation.scala:99), which has no missing parents
+18/08/09 01:28:18 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 5.0 KB, free 911.9 MB)
+18/08/09 01:28:18 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.7 KB, free 911.9 MB)
+18/08/09 01:28:18 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 2.7 KB, free: 912.3 MB)
+18/08/09 01:28:18 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+18/08/09 01:28:18 INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[5] at map at MotelsHomeRecommendation.scala:99) (first 15 tasks are for partitions Vector(0, 1))
+18/08/09 01:28:18 INFO YarnScheduler: Adding task set 0.0 with 2 tasks
+18/08/09 01:28:18 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 7910 bytes)
+18/08/09 01:28:18 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 7910 bytes)
+18/08/09 01:28:18 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 2.7 KB, free: 366.3 MB)
+18/08/09 01:28:18 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 32.2 KB, free: 366.3 MB)
+18/08/09 01:28:20 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 2178 ms on sandbox-hdp.hortonworks.com (executor 1) (1/2)
+18/08/09 01:28:20 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 2164 ms on sandbox-hdp.hortonworks.com (executor 1) (2/2)
+18/08/09 01:28:20 INFO YarnScheduler: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+18/08/09 01:28:20 INFO DAGScheduler: ShuffleMapStage 0 (map at MotelsHomeRecommendation.scala:99) finished in 2.284 s
+18/08/09 01:28:20 INFO DAGScheduler: looking for newly runnable stages
+18/08/09 01:28:20 INFO DAGScheduler: running: Set()
+18/08/09 01:28:20 INFO DAGScheduler: waiting: Set(ResultStage 1)
+18/08/09 01:28:20 INFO DAGScheduler: failed: Set()
+18/08/09 01:28:20 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[8] at saveAsTextFile at MotelsHomeRecommendation.scala:41), which has no missing parents
+18/08/09 01:28:20 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 93.0 KB, free 911.8 MB)
+18/08/09 01:28:20 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 35.0 KB, free 911.8 MB)
+18/08/09 01:28:20 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 35.0 KB, free: 912.2 MB)
+18/08/09 01:28:20 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+18/08/09 01:28:20 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 1 (MapPartitionsRDD[8] at saveAsTextFile at MotelsHomeRecommendation.scala:41) (first 15 tasks are for partitions Vector(0, 1))
+18/08/09 01:28:20 INFO YarnScheduler: Adding task set 1.0 with 2 tasks
+18/08/09 01:28:20 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 7660 bytes)
+18/08/09 01:28:20 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 7660 bytes)
+18/08/09 01:28:20 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 35.0 KB, free: 366.2 MB)
+18/08/09 01:28:20 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 172.18.0.2:58796
+18/08/09 01:28:21 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 621 ms on sandbox-hdp.hortonworks.com (executor 1) (1/2)
+18/08/09 01:28:21 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 625 ms on sandbox-hdp.hortonworks.com (executor 1) (2/2)
+18/08/09 01:28:21 INFO YarnScheduler: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+18/08/09 01:28:21 INFO DAGScheduler: ResultStage 1 (runJob at SparkHadoopWriter.scala:78) finished in 0.660 s
+18/08/09 01:28:21 INFO DAGScheduler: Job 0 finished: runJob at SparkHadoopWriter.scala:78, took 3.097274 s
+18/08/09 01:28:21 INFO SparkHadoopWriter: Job job_20180809012817_0008 committed.
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 360.2 KB, free 911.4 MB)
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 32.2 KB, free 911.4 MB)
+18/08/09 01:28:21 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 32.2 KB, free: 912.2 MB)
+18/08/09 01:28:21 INFO SparkContext: Created broadcast 3 from textFile at MotelsHomeRecommendation.scala:110
+18/08/09 01:28:21 INFO FileInputFormat: Total input paths to process : 1
+18/08/09 01:28:21 INFO SparkContext: Starting job: collect at MotelsHomeRecommendation.scala:117
+18/08/09 01:28:21 INFO DAGScheduler: Got job 1 (collect at MotelsHomeRecommendation.scala:117) with 2 output partitions
+18/08/09 01:28:21 INFO DAGScheduler: Final stage: ResultStage 2 (collect at MotelsHomeRecommendation.scala:117)
+18/08/09 01:28:21 INFO DAGScheduler: Parents of final stage: List()
+18/08/09 01:28:21 INFO DAGScheduler: Missing parents: List()
+18/08/09 01:28:21 INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[12] at map at MotelsHomeRecommendation.scala:116), which has no missing parents
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 3.6 KB, free 911.4 MB)
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.1 KB, free 911.4 MB)
+18/08/09 01:28:21 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 2.1 KB, free: 912.2 MB)
+18/08/09 01:28:21 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1039
+18/08/09 01:28:21 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 2 (MapPartitionsRDD[12] at map at MotelsHomeRecommendation.scala:116) (first 15 tasks are for partitions Vector(0, 1))
+18/08/09 01:28:21 INFO YarnScheduler: Adding task set 2.0 with 2 tasks
+18/08/09 01:28:21 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 4, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 7922 bytes)
+18/08/09 01:28:21 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 5, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 7922 bytes)
+18/08/09 01:28:21 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 2.1 KB, free: 366.2 MB)
+18/08/09 01:28:21 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 32.2 KB, free: 366.2 MB)
+18/08/09 01:28:21 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 4) in 286 ms on sandbox-hdp.hortonworks.com (executor 1) (1/2)
+18/08/09 01:28:21 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 5) in 292 ms on sandbox-hdp.hortonworks.com (executor 1) (2/2)
+18/08/09 01:28:21 INFO YarnScheduler: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+18/08/09 01:28:21 INFO DAGScheduler: ResultStage 2 (collect at MotelsHomeRecommendation.scala:117) finished in 0.312 s
+18/08/09 01:28:21 INFO DAGScheduler: Job 1 finished: collect at MotelsHomeRecommendation.scala:117, took 0.319789 s
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 360.2 KB, free 911.0 MB)
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 32.2 KB, free 911.0 MB)
+18/08/09 01:28:21 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 32.2 KB, free: 912.2 MB)
+18/08/09 01:28:21 INFO SparkContext: Created broadcast 5 from textFile at MotelsHomeRecommendation.scala:151
+18/08/09 01:28:21 INFO FileInputFormat: Total input paths to process : 1
+18/08/09 01:28:21 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+18/08/09 01:28:21 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+18/08/09 01:28:21 INFO SparkContext: Starting job: runJob at SparkHadoopWriter.scala:78
+18/08/09 01:28:21 INFO DAGScheduler: Registering RDD 21 (map at MotelsHomeRecommendation.scala:153)
+18/08/09 01:28:21 INFO DAGScheduler: Registering RDD 22 (map at MotelsHomeRecommendation.scala:160)
+18/08/09 01:28:21 INFO DAGScheduler: Registering RDD 27 (groupBy at MotelsHomeRecommendation.scala:165)
+18/08/09 01:28:21 INFO DAGScheduler: Got job 2 (runJob at SparkHadoopWriter.scala:78) with 2 output partitions
+18/08/09 01:28:21 INFO DAGScheduler: Final stage: ResultStage 6 (runJob at SparkHadoopWriter.scala:78)
+18/08/09 01:28:21 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 5)
+18/08/09 01:28:21 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 5)
+18/08/09 01:28:21 INFO DAGScheduler: Submitting ShuffleMapStage 3 (MapPartitionsRDD[21] at map at MotelsHomeRecommendation.scala:153), which has no missing parents
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 4.3 KB, free 911.0 MB)
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 2.4 KB, free 911.0 MB)
+18/08/09 01:28:21 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 2.4 KB, free: 912.2 MB)
+18/08/09 01:28:21 INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1039
+18/08/09 01:28:21 INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 3 (MapPartitionsRDD[21] at map at MotelsHomeRecommendation.scala:153) (first 15 tasks are for partitions Vector(0, 1))
+18/08/09 01:28:21 INFO YarnScheduler: Adding task set 3.0 with 2 tasks
+18/08/09 01:28:21 INFO DAGScheduler: Submitting ShuffleMapStage 4 (MapPartitionsRDD[22] at map at MotelsHomeRecommendation.scala:160), which has no missing parents
+18/08/09 01:28:21 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 6, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 7912 bytes)
+18/08/09 01:28:21 INFO TaskSetManager: Starting task 1.0 in stage 3.0 (TID 7, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 7912 bytes)
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 262.3 KB, free 910.7 MB)
+18/08/09 01:28:21 INFO ContextCleaner: Cleaned accumulator 12
+18/08/09 01:28:21 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 96.3 KB, free 910.7 MB)
+18/08/09 01:28:21 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 96.3 KB, free: 912.1 MB)
+18/08/09 01:28:21 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1039
+18/08/09 01:28:21 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 2.4 KB, free: 366.2 MB)
+18/08/09 01:28:21 INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[22] at map at MotelsHomeRecommendation.scala:160) (first 15 tasks are for partitions Vector(0, 1))
+18/08/09 01:28:21 INFO YarnScheduler: Adding task set 4.0 with 2 tasks
+18/08/09 01:28:21 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 8, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 7910 bytes)
+18/08/09 01:28:21 INFO TaskSetManager: Starting task 1.0 in stage 4.0 (TID 9, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 7910 bytes)
+18/08/09 01:28:21 INFO BlockManagerInfo: Removed broadcast_4_piece0 on sandbox-hdp.hortonworks.com:41979 in memory (size: 2.1 KB, free: 912.1 MB)
+18/08/09 01:28:22 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 32.2 KB, free: 366.2 MB)
+18/08/09 01:28:22 INFO BlockManagerInfo: Removed broadcast_4_piece0 on sandbox-hdp.hortonworks.com:34917 in memory (size: 2.1 KB, free: 366.2 MB)
+18/08/09 01:28:22 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 96.3 KB, free: 366.1 MB)
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 34
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 3
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 20
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 31
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 74
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 41
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 49
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 32
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 67
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 28
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 43
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 48
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 35
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 47
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 68
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 6
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 66
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 22
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 53
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 19
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 46
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 23
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 16
+18/08/09 01:28:22 INFO BlockManagerInfo: Removed broadcast_1_piece0 on sandbox-hdp.hortonworks.com:41979 in memory (size: 2.7 KB, free: 912.1 MB)
+18/08/09 01:28:22 INFO BlockManagerInfo: Removed broadcast_1_piece0 on sandbox-hdp.hortonworks.com:34917 in memory (size: 2.7 KB, free: 366.1 MB)
+18/08/09 01:28:22 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 6) in 335 ms on sandbox-hdp.hortonworks.com (executor 1) (1/2)
+18/08/09 01:28:22 INFO TaskSetManager: Finished task 1.0 in stage 3.0 (TID 7) in 344 ms on sandbox-hdp.hortonworks.com (executor 1) (2/2)
+18/08/09 01:28:22 INFO YarnScheduler: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+18/08/09 01:28:22 INFO DAGScheduler: ShuffleMapStage 3 (map at MotelsHomeRecommendation.scala:153) finished in 0.358 s
+18/08/09 01:28:22 INFO DAGScheduler: looking for newly runnable stages
+18/08/09 01:28:22 INFO DAGScheduler: running: Set(ShuffleMapStage 4)
+18/08/09 01:28:22 INFO DAGScheduler: waiting: Set(ShuffleMapStage 5, ResultStage 6)
+18/08/09 01:28:22 INFO DAGScheduler: failed: Set()
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 72
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 44
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 71
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 29
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 27
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 58
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 37
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 61
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 14
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 2
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 50
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 70
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 55
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 1
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 7
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 10
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 52
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 51
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 24
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 33
+18/08/09 01:28:22 INFO BlockManagerInfo: Removed broadcast_3_piece0 on sandbox-hdp.hortonworks.com:41979 in memory (size: 32.2 KB, free: 912.1 MB)
+18/08/09 01:28:22 INFO BlockManagerInfo: Removed broadcast_3_piece0 on sandbox-hdp.hortonworks.com:34917 in memory (size: 32.2 KB, free: 366.1 MB)
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 15
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 63
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 8
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 13
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 59
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 65
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 54
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 4
+18/08/09 01:28:22 INFO BlockManagerInfo: Removed broadcast_2_piece0 on sandbox-hdp.hortonworks.com:41979 in memory (size: 35.0 KB, free: 912.1 MB)
+18/08/09 01:28:22 INFO BlockManagerInfo: Removed broadcast_2_piece0 on sandbox-hdp.hortonworks.com:34917 in memory (size: 35.0 KB, free: 366.1 MB)
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 17
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 73
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 36
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 0
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 40
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 42
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 30
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 9
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 18
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 57
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 11
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 21
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 60
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 38
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 69
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 62
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 5
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 56
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 64
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 26
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 45
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 25
+18/08/09 01:28:22 INFO ContextCleaner: Cleaned accumulator 39
+18/08/09 01:28:22 INFO TaskSetManager: Finished task 1.0 in stage 4.0 (TID 9) in 477 ms on sandbox-hdp.hortonworks.com (executor 1) (1/2)
+18/08/09 01:28:22 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 8) in 486 ms on sandbox-hdp.hortonworks.com (executor 1) (2/2)
+18/08/09 01:28:22 INFO YarnScheduler: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+18/08/09 01:28:22 INFO DAGScheduler: ShuffleMapStage 4 (map at MotelsHomeRecommendation.scala:160) finished in 0.650 s
+18/08/09 01:28:22 INFO DAGScheduler: looking for newly runnable stages
+18/08/09 01:28:22 INFO DAGScheduler: running: Set()
+18/08/09 01:28:22 INFO DAGScheduler: waiting: Set(ShuffleMapStage 5, ResultStage 6)
+18/08/09 01:28:22 INFO DAGScheduler: failed: Set()
+18/08/09 01:28:22 INFO DAGScheduler: Submitting ShuffleMapStage 5 (MapPartitionsRDD[27] at groupBy at MotelsHomeRecommendation.scala:165), which has no missing parents
+18/08/09 01:28:22 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 4.6 KB, free 911.2 MB)
+18/08/09 01:28:22 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 2.4 KB, free 911.2 MB)
+18/08/09 01:28:22 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 2.4 KB, free: 912.1 MB)
+18/08/09 01:28:22 INFO SparkContext: Created broadcast 8 from broadcast at DAGScheduler.scala:1039
+18/08/09 01:28:22 INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 5 (MapPartitionsRDD[27] at groupBy at MotelsHomeRecommendation.scala:165) (first 15 tasks are for partitions Vector(0, 1))
+18/08/09 01:28:22 INFO YarnScheduler: Adding task set 5.0 with 2 tasks
+18/08/09 01:28:22 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 10, sandbox-hdp.hortonworks.com, executor 1, partition 0, PROCESS_LOCAL, 7712 bytes)
+18/08/09 01:28:22 INFO TaskSetManager: Starting task 1.0 in stage 5.0 (TID 11, sandbox-hdp.hortonworks.com, executor 1, partition 1, PROCESS_LOCAL, 7712 bytes)
+18/08/09 01:28:22 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 2.4 KB, free: 366.1 MB)
+18/08/09 01:28:22 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 172.18.0.2:58796
+18/08/09 01:28:22 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 2 to 172.18.0.2:58796
+18/08/09 01:28:22 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 10) in 210 ms on sandbox-hdp.hortonworks.com (executor 1) (1/2)
+18/08/09 01:28:22 INFO TaskSetManager: Finished task 1.0 in stage 5.0 (TID 11) in 220 ms on sandbox-hdp.hortonworks.com (executor 1) (2/2)
+18/08/09 01:28:22 INFO YarnScheduler: Removed TaskSet 5.0, whose tasks have all completed, from pool 
+18/08/09 01:28:22 INFO DAGScheduler: ShuffleMapStage 5 (groupBy at MotelsHomeRecommendation.scala:165) finished in 0.236 s
+18/08/09 01:28:22 INFO DAGScheduler: looking for newly runnable stages
+18/08/09 01:28:22 INFO DAGScheduler: running: Set()
+18/08/09 01:28:22 INFO DAGScheduler: waiting: Set(ResultStage 6)
+18/08/09 01:28:22 INFO DAGScheduler: failed: Set()
+18/08/09 01:28:22 INFO DAGScheduler: Submitting ResultStage 6 (MapPartitionsRDD[30] at saveAsTextFile at MotelsHomeRecommendation.scala:73), which has no missing parents
+18/08/09 01:28:22 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 95.3 KB, free 911.1 MB)
+18/08/09 01:28:22 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 35.8 KB, free 911.0 MB)
+18/08/09 01:28:22 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on sandbox-hdp.hortonworks.com:41979 (size: 35.8 KB, free: 912.1 MB)
+18/08/09 01:28:22 INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1039
+18/08/09 01:28:22 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 6 (MapPartitionsRDD[30] at saveAsTextFile at MotelsHomeRecommendation.scala:73) (first 15 tasks are for partitions Vector(0, 1))
+18/08/09 01:28:22 INFO YarnScheduler: Adding task set 6.0 with 2 tasks
+18/08/09 01:28:22 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 12, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 7660 bytes)
+18/08/09 01:28:22 INFO TaskSetManager: Starting task 1.0 in stage 6.0 (TID 13, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 7660 bytes)
+18/08/09 01:28:22 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on sandbox-hdp.hortonworks.com:34917 (size: 35.8 KB, free: 366.1 MB)
+18/08/09 01:28:22 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 3 to 172.18.0.2:58796
+18/08/09 01:28:23 INFO TaskSetManager: Finished task 1.0 in stage 6.0 (TID 13) in 406 ms on sandbox-hdp.hortonworks.com (executor 1) (1/2)
+18/08/09 01:28:23 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 12) in 425 ms on sandbox-hdp.hortonworks.com (executor 1) (2/2)
+18/08/09 01:28:23 INFO YarnScheduler: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+18/08/09 01:28:23 INFO DAGScheduler: ResultStage 6 (runJob at SparkHadoopWriter.scala:78) finished in 0.460 s
+18/08/09 01:28:23 INFO DAGScheduler: Job 2 finished: runJob at SparkHadoopWriter.scala:78, took 1.367227 s
+18/08/09 01:28:23 INFO SparkHadoopWriter: Job job_20180809012821_0030 committed.
+18/08/09 01:28:23 INFO AbstractConnector: Stopped Spark@18e8473e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/08/09 01:28:23 INFO SparkUI: Stopped Spark web UI at http://sandbox-hdp.hortonworks.com:4040
+18/08/09 01:28:23 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+18/08/09 01:28:23 INFO YarnClientSchedulerBackend: Shutting down all executors
+18/08/09 01:28:23 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+18/08/09 01:28:23 INFO SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+18/08/09 01:28:23 INFO YarnClientSchedulerBackend: Stopped
+18/08/09 01:28:23 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+18/08/09 01:28:23 INFO MemoryStore: MemoryStore cleared
+18/08/09 01:28:23 INFO BlockManager: BlockManager stopped
+18/08/09 01:28:23 INFO BlockManagerMaster: BlockManagerMaster stopped
+18/08/09 01:28:23 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+18/08/09 01:28:23 INFO SparkContext: Successfully stopped SparkContext
+18/08/09 01:28:23 INFO ShutdownHookManager: Shutdown hook called
+18/08/09 01:28:23 INFO ShutdownHookManager: Deleting directory /tmp/spark-3b9b2cc8-1fdc-4e3c-ad4b-1245f63325fc
+18/08/09 01:28:23 INFO ShutdownHookManager: Deleting directory /tmp/spark-5918ec17-77ec-4142-b6cb-6142a8210808
+18/08/09 01:28:28 INFO fs.TrashPolicyDefault: Moved: 'hdfs://sandbox-hdp.hortonworks.com:8020/tmp/spark_core' to trash at: hdfs://sandbox-hdp.hortonworks.com:8020/user/maria_dev/.Trash/Current/tmp/spark_core1533778108133
+
+spark job is finished, check output hdfs directory /spark_core_output/2018-08-09_01-27-06
+execution of the app is finished.

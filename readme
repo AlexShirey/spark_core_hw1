@@ -6,10 +6,11 @@ app structure:
 	folders:
 		input - folder contains inputs files (can be used to run script): bids.txt, motels.txt, exchange_rate.txt
 		results - folder that contains results of execution (on local computer, on hdp sandbox 2.6.5)
+		spark-core-src - sources, scala implementation and tests, pom.xml to build jar
 	files:
 		readme - current file
 		run.sh - script to run the app (it wil call spark-sabmit --master yarn)
-		spark-core-src.zip - archive with scala implementation and tests, pom.xml to build jar
+		spark-core-src.zip - archive of the spark-core-src directory (to run script)
 				
 		
 to run the app:
